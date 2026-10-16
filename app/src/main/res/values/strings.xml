@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SYMBIOMINE AR</string>
+    <string name="app_subtitle">Mining Safety Training</string>
+    <string name="login_title">Worker Login</string>
+    <string name="email_label">Worker Email / ID</string>
+    <string name="password_label">Password</string>
+    <string name="login_button">Login</string>
+    <string name="or_divider">OR</string>
+    <string name="continue_google">Continue with Google</string>
+    <string name="skip_button">Skip</string>
+    <string name="training_modules_title">Training Modules</string>
+</resources>

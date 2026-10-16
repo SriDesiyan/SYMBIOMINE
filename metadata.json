@@ -1,0 +1,7 @@
+{
+  "name": "SYMBIOMINE AR",
+  "description": "Offline-first AR-based mining safety training application for industrial and mining workers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
