@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="1200" height="475" alt="Google AI Studio Banner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
 # ⛏️ SYMBIOMINE — Industrial Safety & Spatial Intelligence Ecosystem
 
 ### Offline-First Augmented Reality Safety Training for Mining Workers & Web-Based Safety Operations Command Center
@@ -9,6 +13,7 @@
 [![Web Language](https://img.shields.io/badge/Language-TypeScript_7-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Build Tool](https://img.shields.io/badge/Build-Vite_8-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
 [![AI Engine](https://img.shields.io/badge/AI_Engine-Gemini_3.8_Flash-4285F4?style=flat&logo=google&logoColor=white)](https://ai.google.dev)
+[![Google AI Studio](https://img.shields.io/badge/Google%20AI%20Studio-App%20Live-4285F4?style=flat&logo=google&logoColor=white)](https://ai.studio/apps/9dfcc5db-374f-4d07-b8e2-ccc79f8d8c80)
 [![Standard](https://img.shields.io/badge/Compliance-DGMS_Standard-0284C7?style=flat)](#)
 
 ---
@@ -546,6 +551,24 @@ bun run build
 # Start production server
 bun run start
 ```
+
+
+#### 6. Google AI Studio & Cloud Run Deployment
+
+* **Live AI Studio App**: [https://ai.studio/apps/9dfcc5db-374f-4d07-b8e2-ccc79f8d8c80](https://ai.studio/apps/9dfcc5db-374f-4d07-b8e2-ccc79f8d8c80)
+* **Automatic Secret Injection**: In AI Studio, runtime keys (`GEMINI_API_KEY`, `APP_URL`) are injected via the Secrets panel.
+* **Google Cloud Run Deployment**:
+  ```bash
+  # Build and deploy container image to Google Cloud Run
+  cd SymbioMine-Dashboard
+  gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/symbiomine-dashboard
+  gcloud run deploy symbiomine-dashboard \
+    --image gcr.io/YOUR_PROJECT_ID/symbiomine-dashboard \
+    --platform managed \
+    --region us-central1 \
+    --allow-unauthenticated \
+    --set-env-vars GEMINI_API_KEY="your-gemini-api-key"
+  ```
 
 ---
 
