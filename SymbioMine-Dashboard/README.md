@@ -1,12 +1,7 @@
-<div align="center">
-  <img width="1200" height="475" alt="Google AI Studio Banner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
 # ⛏️ SymbioMine Admin Dashboard
 
 ### Industrial Safety Competency & Certification Intelligence Platform
 
-[![Google AI Studio](https://img.shields.io/badge/Google%20AI%20Studio-App%20Live-4285F4?style=flat&logo=google&logoColor=white)](https://ai.studio/apps/9dfcc5db-374f-4d07-b8e2-ccc79f8d8c80)
 [![Frontend](https://img.shields.io/badge/Frontend-React_19-61DAFB?style=flat&logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript_7-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Build](https://img.shields.io/badge/Build-Vite_8-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
@@ -14,9 +9,6 @@
 [![Standard](https://img.shields.io/badge/Compliance-DGMS_Standard-0284C7?style=flat)](#)
 
 ---
-
-> 🚀 **Live Google AI Studio App**: [https://ai.studio/apps/9dfcc5db-374f-4d07-b8e2-ccc79f8d8c80](https://ai.studio/apps/9dfcc5db-374f-4d07-b8e2-ccc79f8d8c80)  
-> The SymbioMine Admin Dashboard is engineered as an enterprise-grade AI Studio application connecting Google Gemini with real-time industrial safety operations.
 
 ---
 
@@ -70,23 +62,7 @@ The **SymbioMine Admin Dashboard** is the web-based operational intelligence com
 
 ---
 
-## Google AI Studio & Cloud Deployment Guide
-
-### 1. View & Run in Google AI Studio
-
-You can access and interact with the application directly inside the Google AI Studio environment:
-
-🔗 **AI Studio Application URL**: [https://ai.studio/apps/9dfcc5db-374f-4d07-b8e2-ccc79f8d8c80](https://ai.studio/apps/9dfcc5db-374f-4d07-b8e2-ccc79f8d8c80)
-
-#### AI Studio Managed Runtime
-When running within AI Studio:
-* **`GEMINI_API_KEY`**: Automatically injected into the server runtime via user secrets configured in the Secrets panel of the AI Studio UI.
-* **`APP_URL`**: Automatically injected with the Cloud Run service URL hosting the applet for self-referential links and OAuth callbacks.
-* **Permissions**: Configured in `metadata.json` (`camera` permission for QR scanner and `MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API`).
-
----
-
-### 2. Local Installation & Setup
+## Installation & Local Setup
 
 #### Prerequisites
 * **Node.js** 18+ or [Bun](https://bun.sh) (v1.3+)
@@ -111,7 +87,7 @@ npm install
 ```bash
 cp .env.example .env.local
 ```
-Edit `.env.local` with your Gemini API key from [Google AI Studio](https://aistudio.google.com/):
+Edit `.env.local` with your Gemini API key for Gemini API:
 ```env
 GEMINI_API_KEY="AIzaSy..."
 APP_URL="http://localhost:3000"
@@ -143,7 +119,9 @@ bun run start
 
 ---
 
-### 3. Deploying to Google Cloud Run
+## Cloud Deployment Guide
+
+### Deploying to Google Cloud Run
 
 To deploy the dashboard to Google Cloud Run independently:
 
