@@ -10,6 +10,7 @@
 [![Build Tool](https://img.shields.io/badge/Build-Vite_8-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
 [![AI Engine](https://img.shields.io/badge/AI_Engine-Gemini_3.8_Flash-4285F4?style=flat&logo=google&logoColor=white)](https://ai.google.dev)
 [![Standard](https://img.shields.io/badge/Compliance-DGMS_Standard-0284C7?style=flat)](#)
+[![Download Complete Android App](https://img.shields.io/badge/⬇️_Download_Complete_App-v1.0.0_APK_(341_MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk)
 
 ---
 
@@ -449,7 +450,7 @@ The application and its interactive AR simulation modules are downloadable and r
 | :--- | :--- | :--- | :--- |
 | **🔥 Module 01: Fire Safety AR** | **85.1 MB** | [⬇️ **Download `fire_module.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/fire_module.apk) | Standalone AR drill for PASS fire extinguisher protocol, safe standoff distance guide, and thermal alarm simulation. |
 | **⚠️ Module 02: Gas Leak & LOTO AR** | **95.5 MB** | [⬇️ **Download `gas3.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/gas3.apk) | Standalone AR drill for methane hazard detection, SCSR mask donning, and physical Lockout/Tagout valve isolation. |
-| **📱 Full SYMBIOMINE AR Host App** | **~340 MB** | [📦 **Download from GitHub Releases**](https://github.com/SriDesiyan/SYMBIOMINE/releases) | Complete ecosystem: Face biometric login, safety practice dashboard, multilingual audio narration (Santali/Hindi/English), visual scenario quizzes, and tamper-evident offline QR certificates. |
+| **📱 Full SYMBIOMINE AR App (All-in-One)** | **341 MB** | [⬇️ **Download `symbiomine-app.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk) | **Complete Ecosystem**: Face biometric login, safety practice dashboard, multilingual audio narration (Santali/Hindi/English), visual scenario quizzes, and tamper-evident offline QR certificates. |
 
 > [!TIP]
 > **Quick Install on Android Device:**
