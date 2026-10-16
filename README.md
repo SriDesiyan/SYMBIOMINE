@@ -18,6 +18,7 @@
 | Platform Module | Technology Stack | Location | Description |
 | :--- | :--- | :--- | :--- |
 | **SYMBIOMINE AR Mobile App** | Kotlin 2.2, Jetpack Compose, Unity AR, Room SQLite | [`app/`](app/) | Offline-first 3D AR spatial hazard drills, biometric login, visual MCQ exams, on-device QR certs. |
+| **Direct APK Downloads** | Android APK packages (85MB & 95MB) | [⬇️ Download APKs](#-apk-distribution--direct-downloads) | Pre-compiled ready-to-run AR training modules for instant installation on Android. |
 | **SymbioMine Admin Dashboard** | React 19, TypeScript 7, Vite 8, Express, Gemini AI, MCP | [`SymbioMine-Dashboard/`](SymbioMine-Dashboard/) | Surface command center, workforce roster, competency analytics, QR cert scanner, Agentic AI assistant. |
 | **System Architecture & Specs** | Cross-platform architectural diagrams & API contracts | [`docs/architecture.md`](docs/architecture.md) | Canonical REST synchronization schemas, security boundaries, and deterministic safety rules. |
 
@@ -440,15 +441,21 @@ SYMBIOMINE/
 
 ---
 
-## 📦 APK Distribution
+## 📦 APK Distribution & Direct Downloads
 
-The application and its AR simulations are distributed as self-contained Android application packages:
+The application and its interactive AR simulation modules are downloadable and ready to install on Android devices:
 
-| Component | File / Asset Path | Package Name | Target Module |
+| Component / Module | File Size | Direct Download Link | Description & Features |
 | :--- | :--- | :--- | :--- |
-| **SYMBIOMINE AR App** | `app/build/outputs/apk/debug/app-debug.apk` | `com.aistudio.symbiomine.sftyar` | Host Portal |
-| **Fire Safety AR** | `app/src/main/assets/modules/fire_module.apk` | `com.sybioar.symbiofire` | Module 01 (`a.unity`) |
-| **Gas Leak & LOTO AR** | `app/src/main/assets/modules/gas3.apk` | `com.sybioar.symbiofire` | Module 02 (`GASLEACKAGE.unity`) |
+| **🔥 Module 01: Fire Safety AR** | **85.1 MB** | [⬇️ **Download `fire_module.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/fire_module.apk) | Standalone AR drill for PASS fire extinguisher protocol, safe standoff distance guide, and thermal alarm simulation. |
+| **⚠️ Module 02: Gas Leak & LOTO AR** | **95.5 MB** | [⬇️ **Download `gas3.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/gas3.apk) | Standalone AR drill for methane hazard detection, SCSR mask donning, and physical Lockout/Tagout valve isolation. |
+| **📱 Full SYMBIOMINE AR Host App** | **~340 MB** | [📦 **Download from GitHub Releases**](https://github.com/SriDesiyan/SYMBIOMINE/releases) | Complete ecosystem: Face biometric login, safety practice dashboard, multilingual audio narration (Santali/Hindi/English), visual scenario quizzes, and tamper-evident offline QR certificates. |
+
+> [!TIP]
+> **Quick Install on Android Device:**
+> 1. Download any `.apk` directly to your phone via the links above.
+> 2. Open the downloaded file in your Android File Manager and tap **Install** (allow "Install Unknown Apps" if prompted).
+> 3. Alternatively, install via ADB: `adb install -r fire_module.apk` or `adb install -r gas3.apk`.
 
 > [!NOTE]
 > `fire_module.apk` and `gas3.apk` share the same package identifier (`com.sybioar.symbiofire`). The host application's `UnityArLauncher` tracks the active module in local preferences and dynamically extracts and launches the required APK through Android's `FileProvider`.
