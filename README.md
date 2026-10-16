@@ -8,7 +8,6 @@
 [![Web Platform](https://img.shields.io/badge/Web-React_19-61DAFB?style=flat&logo=react&logoColor=white)](https://react.dev)
 [![Web Language](https://img.shields.io/badge/Language-TypeScript_7-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Build Tool](https://img.shields.io/badge/Build-Vite_8-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
-[![AI Engine](https://img.shields.io/badge/AI_Engine-Gemini_3.8_Flash-4285F4?style=flat&logo=google&logoColor=white)](https://ai.google.dev)
 [![Standard](https://img.shields.io/badge/Compliance-DGMS_Standard-0284C7?style=flat)](#)
 [![Download Complete Android App](https://img.shields.io/badge/Download_Complete_App-v1.0.0_APK_(341_MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk)
 [![Watch Working Video Demonstration](https://img.shields.io/badge/YouTube-Watch_Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/GL0BDV6_2WY)
