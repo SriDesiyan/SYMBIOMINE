@@ -14,12 +14,36 @@
 
 ---
 
+> [!IMPORTANT]
+> ### 📲 1-Click Direct Downloads (Ready to Install on Android)
+> Evaluators and users can test the complete offline ecosystem without setting up build tools or Android Studio:
+> 
+> | Package | File Size | Direct 1-Click Link | What It Includes |
+> | :--- | :---: | :--- | :--- |
+> | **📱 Full SYMBIOMINE AR App** | **341 MB** | [⬇️ **Download `symbiomine-app.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk) | **Unified All-In-One Application**: Face biometric login, multilingual audio (Santali, Hindi, English), practice mode, visual scenario quizzes, tamper-evident QR certificates, and integrated 3D AR drills. |
+> | **🔥 Fire Safety AR Drill** | **85.1 MB** | [⬇️ **Download `fire_module.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/fire_module.apk) | Standalone PASS protocol fire extinguisher drill, safe distance guideline, and proximity heat alarms. |
+> | **🛢️ Gas Leak & LOTO AR Drill** | **95.5 MB** | [⬇️ **Download `gas3.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/gas3.apk) | Standalone atmospheric methane leak detection, SCSR mask donning, and physical Lockout/Tagout valve isolation. |
+> | **📦 Official GitHub Release** | — | [🔗 **View Release v1.0.0 Notes & Assets**](https://github.com/SriDesiyan/SYMBIOMINE/releases/tag/v1.0.0) | Complete release logs, SHA-256 hashes, and verified package artifacts. |
+
+---
+
+### 🔑 Demo Credentials for Testing & Evaluation
+
+| Platform | Role / User | Login Email / ID | Password / PIN | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **📱 Android App** | Frontline Mine Worker | `rajesh.murmu@mine.corp` | `••••••••` *(or tap Face Scan)* | Pre-filled in app. Supports instant facial biometric authentication or skip demo. |
+| **💻 Admin Web Dashboard** | Super Admin | `superadmin@symbiomine.ar` | `Admin@2026!` | Full administrative access, AI safety assistant, MCP tools, and QR certificate scanner. |
+| **💻 Admin Web Dashboard** | Administrator | `admin@symbiomine.ar` | `Admin@2026!` | Workforce roster, competency analytics, and scenario management. |
+| **💻 Admin Web Dashboard** | Training Lead | `training@symbiomine.ar` | `Admin@2026!` | Remediation assignments, assessment forensic records, and batch certificates. |
+
+---
+
 ## 🗂️ Platform Navigation
 
 | Platform Module | Technology Stack | Location | Description |
 | :--- | :--- | :--- | :--- |
 | **SYMBIOMINE AR Mobile App** | Kotlin 2.2, Jetpack Compose, Unity AR, Room SQLite | [`app/`](app/) | Offline-first 3D AR spatial hazard drills, biometric login, visual MCQ exams, on-device QR certs. |
-| **Direct APK Downloads** | Android APK packages (85MB & 95MB) | [⬇️ Download APKs](#-apk-distribution--direct-downloads) | Pre-compiled ready-to-run AR training modules for instant installation on Android. |
+| **Direct APK Downloads** | Android APK packages (341MB, 95MB, 85MB) | [⬇️ Download APKs](#-apk-distribution--direct-downloads) | Pre-compiled ready-to-run Android packages for instant installation and evaluation. |
 | **SymbioMine Admin Dashboard** | React 19, TypeScript 7, Vite 8, Express, Gemini AI, MCP | [`SymbioMine-Dashboard/`](SymbioMine-Dashboard/) | Surface command center, workforce roster, competency analytics, QR cert scanner, Agentic AI assistant. |
 | **System Architecture & Specs** | Cross-platform architectural diagrams & API contracts | [`docs/architecture.md`](docs/architecture.md) | Canonical REST synchronization schemas, security boundaries, and deterministic safety rules. |
 
