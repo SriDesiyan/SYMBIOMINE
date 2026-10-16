@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="85 20 330 250" width="100%" height="100%">
+  <defs>
+    <!-- Gradients & Filters -->
+    <linearGradient id="sunGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="amberGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="helmetDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="phoneDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- ICON GROUP -->
+  <g transform="translate(0, 10)">
+    <!-- 1. Background Sun / Orange Circle -->
+    <circle cx="215" cy="175" r="82" fill="url(#sunGlow)" />
+
+    <!-- 2. Dark Mountain Peaks with Base -->
+    <path d="M 95 260 L 215 130 L 335 260 Z" fill="url(#helmetDark)" />
+
+    <!-- 3. Winding Path / Road through the mountain (Crisp S-Curve) -->
+    <path d="M 215 130 
+             C 215 170, 175 195, 185 220 
+             C 195 240, 240 245, 235 260 
+             L 190 260 
+             C 195 248, 160 238, 155 210 
+             C 150 185, 205 160, 215 130 Z" 
+          fill="#FFFFFF" />
+
+    <!-- 4. Miner Hard Hat (Dome, Ridges, Headlamp & Brim) -->
+    <path d="M 120 120 
+             C 120 45, 310 45, 310 120 
+             Z" 
+          fill="url(#helmetDark)" />
+
+    <!-- Helmet Ridge Accents -->
+    <path d="M 205 45 L 205 110 L 225 110 L 225 45 Z" fill="#334155" opacity="0.6"/>
+    <path d="M 165 58 C 160 75, 158 95, 158 115 L 170 115 C 170 98, 172 78, 177 62 Z" fill="#334155" opacity="0.4"/>
+    <path d="M 265 58 C 270 75, 272 95, 272 115 L 260 115 C 260 98, 258 78, 253 62 Z" fill="#334155" opacity="0.4"/>
+
+    <!-- Helmet Brim -->
+    <path d="M 105 120 
+             C 105 112, 325 112, 325 120 
+             C 325 138, 105 138, 105 120 Z" 
+          fill="#0F172A" />
+    <path d="M 100 125 
+             C 100 118, 330 118, 330 125 
+             C 330 134, 100 134, 100 125 Z" 
+          fill="#1E293B" />
+
+    <!-- Headlamp Mount / Outer Ring -->
+    <circle cx="215" cy="98" r="30" fill="#0F172A" stroke="#334155" stroke-width="4"/>
+    <circle cx="215" cy="98" r="22" fill="#FFFFFF" />
+    <circle cx="215" cy="98" r="17" fill="url(#sunGlow)" />
+    <!-- Light Reflection Highlight -->
+    <ellipse cx="211" cy="93" rx="5" ry="3" fill="#FFFFFF" opacity="0.7"/>
+
+    <!-- 5. Smartphone AR Device Frame (Right side) -->
+    <g transform="translate(305, 75) rotate(7)">
+      <!-- Phone Body Outline -->
+      <rect x="0" y="0" width="92" height="152" rx="18" fill="#0F172A" stroke="#1E293B" stroke-width="6" filter="url(#subtleShadow)"/>
+      <!-- Screen Area -->
+      <rect x="6" y="8" width="80" height="136" rx="12" fill="#0F172A"/>
+      <!-- Speaker Notch -->
+      <rect x="36" y="14" width="20" height="3" rx="1.5" fill="#475569"/>
+
+      <!-- AR Reticle Viewfinder Corners -->
+      <path d="M 22 46 L 14 46 L 14 54" fill="none" stroke="#F59E0B" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 70 46 L 78 46 L 78 54" fill="none" stroke="#F59E0B" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 22 96 L 14 96 L 14 88" fill="none" stroke="#F59E0B" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 70 96 L 78 96 L 78 88" fill="none" stroke="#F59E0B" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- AR Screen Text -->
+      <text x="46" y="77" font-family="'Oswald', 'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="28" fill="#F59E0B" text-anchor="middle" letter-spacing="1">AR</text>
+    </g>
+  </g>
+</svg>

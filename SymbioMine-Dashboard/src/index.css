@@ -1,0 +1,303 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Zen Dots', cursive, sans-serif;
+  --font-display: 'Zen Dots', cursive, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Zen Dots', monospace;
+
+  /* SymbioMine enterprise palette */
+  --color-navy-950: #07152d;
+  --color-navy-900: #0d1b35;
+  --color-navy-800: #15294b;
+  --color-navy-700: #1f3a66;
+  --color-brand: #e85d04;
+  --color-brand-light: #f26b0a;
+  --color-brand-soft: #fff1e6;
+  --color-safe: #159447;
+  --color-warn: #d98a00;
+  --color-crit: #d92d3a;
+  --color-surface: #f5f7fa;
+}
+
+/* Industrial Enterprise Typography & Ergonomics with Zen Dots */
+@layer base {
+  *, *::before, *::after, html, body {
+    font-family: 'Zen Dots', cursive, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+  }
+
+  /* Universal text wrapping safeguards — never break words character-by-character */
+  h1, h2, h3, h4, h5, h6, p, span, div, td, th, a, button, label {
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  /* Custom subtle industrial scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+/* Responsive Table Container & Enterprise Data Table Rules */
+.table-container,
+.table-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-container::-webkit-scrollbar,
+.table-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+/* Action button row styling: always nowrap, never overlap */
+.action-button-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.action-button-group > button,
+.action-button-group > a {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* Monospace tabular numbers helper */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Premium Glass & Mesh Styling */
+.glass-card {
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 4px 12px -2px rgba(0, 0, 0, 0.03);
+}
+
+.glass-card-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.07), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+  border-color: rgba(203, 213, 225, 0.95);
+}
+
+.subtle-mesh-pattern {
+  background-image: radial-gradient(rgba(148, 163, 184, 0.12) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.glow-amber-subtle {
+  box-shadow: 0 0 15px -3px rgba(245, 158, 11, 0.25);
+}
+
+.glow-emerald-subtle {
+  box-shadow: 0 0 15px -3px rgba(16, 185, 129, 0.25);
+}
+
+/* ---------- Enterprise panel primitives (8px spacing system) ---------- */
+.panel {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(7, 21, 45, 0.04);
+}
+
+.panel-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eef1f5;
+}
+
+.panel-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #07152d;
+  letter-spacing: 0.01em;
+}
+
+.panel-sub {
+  font-size: 11px;
+  color: #64748b;
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.brand-focus:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid #e85d04;
+  outline-offset: 2px;
+}
+
+@keyframes fade-rise {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.view-enter {
+  animation: fade-rise 0.18s ease-out;
+}
+
+@keyframes bar-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.bar-grow {
+  transform-origin: left center;
+  animation: bar-grow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .view-enter, .bar-grow { animation: none; }
+}
+
+/* ==================================================
+   RESPONSIVE TOP NAVIGATION HEADER SYSTEM
+   ================================================== */
+.topbar-header {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.topbar-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  min-height: 56px;
+  gap: 10px;
+}
+
+.topbar-group-primary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1 1 760px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.topbar-group-secondary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+  min-width: 0;
+  max-width: 100%;
+  margin-left: auto;
+}
+
+/* Two controlled rows on viewports < 1780px where all 10 elements cannot fit in a single row without compression */
+@media (max-width: 1779px) {
+  .topbar-group-primary {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  .topbar-group-secondary {
+    flex: 1 1 100%;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 4px;
+    border-top: 1px solid #f1f5f9;
+  }
+}
+
+.topbar-logo {
+  flex: 0 0 auto;
+  min-width: 235px;
+}
+
+.topbar-filter-division {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 1 auto;
+  min-width: 195px;
+  max-width: 250px;
+}
+
+.topbar-filter-division select {
+  min-width: 130px;
+  max-width: 180px;
+  flex: 1 1 auto;
+}
+
+.topbar-filter-period {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 1 auto;
+  min-width: 175px;
+  max-width: 230px;
+}
+
+.topbar-filter-period select {
+  min-width: 120px;
+  max-width: 170px;
+  flex: 1 1 auto;
+}
+
+.topbar-search-bar {
+  flex: 1 1 240px;
+  min-width: 180px;
+}
+
+.topbar-action-btn {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.topbar-mesh-status {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.topbar-profile {
+  flex: 0 0 auto;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+

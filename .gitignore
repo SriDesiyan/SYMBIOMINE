@@ -10,4 +10,22 @@
 .cxx
 local.properties
 .env
+.env*.local
 debug.keystore
+
+# Dashboard Web Application
+node_modules/
+SymbioMine-Dashboard/node_modules/
+SymbioMine-Dashboard/dist/
+SymbioMine-Dashboard/build/
+SymbioMine-Dashboard/.env
+SymbioMine-Dashboard/.env.local
+SymbioMine-Dashboard/.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Allow example files
+!.env.example
+!SymbioMine-Dashboard/.env.example

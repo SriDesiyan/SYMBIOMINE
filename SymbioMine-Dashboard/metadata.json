@@ -1,0 +1,6 @@
+{
+  "name": "SymbioMine",
+  "description": "Industrial Safety Competency & Certification Intelligence Platform for mining and manufacturing operations.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
