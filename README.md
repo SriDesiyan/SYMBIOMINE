@@ -1,6 +1,6 @@
-# ⛏️ SYMBIOMINE — Industrial Safety & Spatial Intelligence Ecosystem
+# SYMBIOMINE — Industrial Safety & Spatial Intelligence Ecosystem
 
-### Offline-First Augmented Reality Safety Training for Mining Workers & Web-Based Safety Operations Command Center
+### Offline-First Augmented Reality Safety Training for Mining Personnel & Web-Based Safety Operations Command Center
 
 [![Mobile Platform](https://img.shields.io/badge/Mobile-Android_14+-3DDC84?style=flat&logo=android&logoColor=white)](https://developer.android.com)
 [![Mobile Language](https://img.shields.io/badge/Language-Kotlin_2.2-7F52FF?style=flat&logo=kotlin&logoColor=white)](https://kotlinlang.org)
@@ -10,41 +10,41 @@
 [![Build Tool](https://img.shields.io/badge/Build-Vite_8-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
 [![AI Engine](https://img.shields.io/badge/AI_Engine-Gemini_3.8_Flash-4285F4?style=flat&logo=google&logoColor=white)](https://ai.google.dev)
 [![Standard](https://img.shields.io/badge/Compliance-DGMS_Standard-0284C7?style=flat)](#)
-[![Download Complete Android App](https://img.shields.io/badge/⬇️_Download_Complete_App-v1.0.0_APK_(341_MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk)
+[![Download Complete Android App](https://img.shields.io/badge/Download_Complete_App-v1.0.0_APK_(341_MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk)
 
 ---
 
 > [!IMPORTANT]
-> ### 📲 1-Click Direct Downloads (Ready to Install on Android)
-> Evaluators and users can test the complete offline ecosystem without setting up build tools or Android Studio:
+> ### Direct Downloads & Deployment Packages
+> Evaluators and operations personnel can install and evaluate the complete offline safety ecosystem on target Android devices without compiling from source:
 > 
-> | Package | File Size | Direct 1-Click Link | What It Includes |
+> | Package | File Size | Direct Download Link | Specification & Inclusions |
 > | :--- | :---: | :--- | :--- |
-> | **📱 Full SYMBIOMINE AR App** | **341 MB** | [⬇️ **Download `symbiomine-app.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk) | **Unified All-In-One Application**: Face biometric login, multilingual audio (Santali, Hindi, English), practice mode, visual scenario quizzes, tamper-evident QR certificates, and integrated 3D AR drills. |
-> | **🔥 Fire Safety AR Drill** | **85.1 MB** | [⬇️ **Download `fire_module.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/fire_module.apk) | Standalone PASS protocol fire extinguisher drill, safe distance guideline, and proximity heat alarms. |
-> | **🛢️ Gas Leak & LOTO AR Drill** | **95.5 MB** | [⬇️ **Download `gas3.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/gas3.apk) | Standalone atmospheric methane leak detection, SCSR mask donning, and physical Lockout/Tagout valve isolation. |
-> | **📦 Official GitHub Release** | — | [🔗 **View Release v1.0.0 Notes & Assets**](https://github.com/SriDesiyan/SYMBIOMINE/releases/tag/v1.0.0) | Complete release logs, SHA-256 hashes, and verified package artifacts. |
+> | **SYMBIOMINE AR Full App** | **341 MB** | [**Download `symbiomine-app.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk) | **Unified Android Application**: Local facial recognition authentication, multilingual voice guidance (Santali Ol Chiki, Hindi, English), competency modules, visual scenario assessments, tamper-evident offline QR certificates, and integrated 3D AR simulation launchers. |
+> | **Module 01: Fire Safety AR** | **85.1 MB** | [**Download `fire_module.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/fire_module.apk) | Standalone PASS protocol fire extinguisher drill, safe standoff distance indicator, and thermal proximity alarm system. |
+> | **Module 02: Gas Leak & LOTO AR** | **95.5 MB** | [**Download `gas3.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/gas3.apk) | Standalone atmospheric methane leak detection, SCSR respiratory apparatus donning, and physical Lockout/Tagout valve isolation drill. |
+> | **Official GitHub Release** | — | [**View Release v1.0.0 Notes & Assets**](https://github.com/SriDesiyan/SYMBIOMINE/releases/tag/v1.0.0) | Complete release logs, SHA-256 verification hashes, and signed distribution artifacts. |
 
 ---
 
-### 🔑 Demo Credentials for Testing & Evaluation
+### Demonstration Credentials for Evaluation
 
-| Platform | Role / User | Login Email / ID | Password / PIN | Notes |
+| Platform | Designated Role | Authentication ID / Email | Password / PIN | Description & Access Scope |
 | :--- | :--- | :--- | :--- | :--- |
-| **📱 Android App** | Frontline Mine Worker | `rajesh.murmu@mine.corp` | `••••••••` *(or tap Face Scan)* | Pre-filled in app. Supports instant facial biometric authentication or skip demo. |
-| **💻 Admin Web Dashboard** | Super Admin | `superadmin@symbiomine.ar` | `Admin@2026!` | Full administrative access, AI safety assistant, MCP tools, and QR certificate scanner. |
-| **💻 Admin Web Dashboard** | Administrator | `admin@symbiomine.ar` | `Admin@2026!` | Workforce roster, competency analytics, and scenario management. |
-| **💻 Admin Web Dashboard** | Training Lead | `training@symbiomine.ar` | `Admin@2026!` | Remediation assignments, assessment forensic records, and batch certificates. |
+| **Android Host App** | Frontline Mine Worker | `rajesh.murmu@mine.corp` | Pre-filled *(or tap Face Scan)* | Enrolled worker profile with Santali (*Ol Chiki*) preference. Supports facial verification, curriculum navigation, visual MCQ assessments, and certificate generation. |
+| **Admin Web Dashboard** | Super Administrator | `superadmin@symbiomine.ar` | `Admin@2026!` | Unrestricted site oversight, emergency broadcast dispatch, Agentic AI safety assistant with Model Context Protocol (MCP) tool execution, and optical QR certificate verification. |
+| **Admin Web Dashboard** | Operational Administrator | `admin@symbiomine.ar` | `Admin@2026!` | Workforce management, shift readiness rosters, competency analytics, and scenario threshold configurations. |
+| **Admin Web Dashboard** | Training Lead | `training@symbiomine.ar` | `Admin@2026!` | Remediation queue management, forensic exam logs, and certificate batch exports. |
 
 ---
 
-## 🗂️ Platform Navigation
+## Platform Navigation & System Overview
 
-| Platform Module | Technology Stack | Location | Description |
+| Platform Module | Technology Stack | Repository Path | Description |
 | :--- | :--- | :--- | :--- |
-| **SYMBIOMINE AR Mobile App** | Kotlin 2.2, Jetpack Compose, Unity AR, Room SQLite | [`app/`](app/) | Offline-first 3D AR spatial hazard drills, biometric login, visual MCQ exams, on-device QR certs. |
-| **Direct APK Downloads** | Android APK packages (341MB, 95MB, 85MB) | [⬇️ Download APKs](#-apk-distribution--direct-downloads) | Pre-compiled ready-to-run Android packages for instant installation and evaluation. |
-| **SymbioMine Admin Dashboard** | React 19, TypeScript 7, Vite 8, Express, Gemini AI, MCP | [`SymbioMine-Dashboard/`](SymbioMine-Dashboard/) | Surface command center, workforce roster, competency analytics, QR cert scanner, Agentic AI assistant. |
+| **SYMBIOMINE AR Mobile App** | Kotlin 2.2, Jetpack Compose, Unity AR, Room SQLite | [`app/`](app/) | Offline-first 3D AR spatial hazard drills, biometric verification, visual MCQ assessments, on-device DGMS certificates. |
+| **Direct Application Packages** | Standalone Android APKs (341MB, 95MB, 85MB) | [Download Packages](#application-packages--distribution) | Pre-compiled distribution packages for field deployment and evaluation. |
+| **SymbioMine Admin Dashboard** | React 19, TypeScript 7, Vite 8, Express, Gemini AI, MCP | [`SymbioMine-Dashboard/`](SymbioMine-Dashboard/) | Surface operations center, workforce roster, competency analytics, QR certificate scanner, Agentic AI assistant. |
 | **System Architecture & Specs** | Cross-platform architectural diagrams & API contracts | [`docs/architecture.md`](docs/architecture.md) | Canonical REST synchronization schemas, security boundaries, and deterministic safety rules. |
 
 ---
@@ -59,26 +59,26 @@
 
 ## Project Overview
 
-**SYMBIOMINE** is a comprehensive occupational safety ecosystem engineered for underground mining operations and hazardous industrial environments. The platform addresses the full continuum of industrial safety:
+**SYMBIOMINE** is an industrial safety ecosystem engineered for underground mining operations and high-hazard industrial facilities. The platform addresses the full continuum of industrial safety:
 
 1. **Underground Field Operations (`app/`)**: The **SYMBIOMINE AR** native Android application provides hands-on Augmented Reality drills directly on workers' mobile devices in zero-connectivity subterranean stopes. Trainees interact with virtual 3D equipment, master emergency procedures, complete visual MCQ assessments, and receive tamper-evident digital certificates.
 2. **Surface Operations & Compliance (`SymbioMine-Dashboard/`)**: The **SymbioMine Admin Dashboard** provides safety directors, training supervisors, and compliance officers with high-assurance operational intelligence, real-time competency analytics, certification verification, and an Agentic AI safety assistant with Model Context Protocol (MCP) tool execution.
 
 ---
 
-## Problem
+## Problem Statement
 
-Underground mining environments present severe occupational hazards where split-second safety decisions prevent fatalities. However, conventional industrial safety education faces critical shortcomings:
+Underground mining environments present severe occupational hazards where split-second safety decisions prevent fatal incidents. Conventional industrial safety education faces persistent challenges:
 
-* **Theory-Heavy Instruction**: Training is largely restricted to manuals and passive slide presentations, leaving workers unprepared for real physical emergencies.
-* **Inability to Recreate Disasters Safely**: Real-world hazards—such as methane gas surges, electrical arc flashes, or conveyor belt fires—cannot be safely simulated in live mines without genuine danger.
-* **No Underground Connectivity**: Mining stopes and remote shafts operate hundreds of meters underground with zero cellular or Wi-Fi connectivity, rendering cloud-dependent applications unusable.
-* **Linguistic Diversity**: Frontline workforces speak regional languages (such as Hindi and Santali) and often encounter literacy hurdles with standard English technical manuals.
+* **Theory-Heavy Instruction**: Training is largely restricted to manuals and passive slide presentations, leaving personnel unprepared for physical field emergencies.
+* **Inability to Recreate Disasters Safely**: Real-world hazards—such as methane gas surges, electrical arc flashes, or conveyor belt fires—cannot be safely simulated in operating mines without severe risk.
+* **Zero Underground Connectivity**: Stopes and remote shafts operate hundreds of meters underground with no cellular or Wi-Fi coverage, rendering cloud-dependent applications unusable.
+* **Linguistic Diversity**: Frontline workforces speak regional languages (including Hindi and Santali) and often encounter literacy hurdles with standard English technical manuals.
 * **Disconnected Administration**: Safety supervisors lack real-time visibility into workforce training currency, credential expiries, and empirical hazard competency gaps.
 
 ---
 
-## Solution
+## Solution Architecture
 
 SYMBIOMINE bridges the gap between field reality and safety governance through immersive spatial computing and intelligent administration:
 
@@ -92,9 +92,9 @@ $$\text{Learn} \longrightarrow \text{Visualize} \longrightarrow \text{Interact} 
 
 ---
 
-## Key Features
+## Core Capabilities
 
-| Feature | Subsystem | Description | Implementation Status |
+| Capability | Subsystem | Description | Status |
 | :--- | :--- | :--- | :--- |
 | **AR Safety Drills** | Mobile (`app`) | Spatial 3D simulations for fire suppression, gas leaks, and electrical safety | Verified (`Unity AR / ARCore`) |
 | **Multilingual UI & Audio** | Mobile (`app`) | Full interface and audio narration in English, Hindi, and Santali (*Ol Chiki*) | Verified (`SantaliAudioEngine` / Noto Fonts) |
@@ -111,9 +111,9 @@ $$\text{Learn} \longrightarrow \text{Visualize} \longrightarrow \text{Interact} 
 
 ---
 
-## How It Works
+## Operational Workflow
 
-1. **Worker Authentication**: The candidate logs in on the Android tablet using on-device facial biometric scanning or a 4-digit safety PIN.
+1. **Worker Authentication**: The candidate logs in on the Android tablet using on-device facial biometric scanning or a secure PIN.
 2. **Curriculum Selection**: The worker navigates the mobile dashboard and selects an assigned safety competency module.
 3. **Interactive AR Drill**: Tapping **"Launch AR"** starts the targeted Unity AR simulation. The worker interacts with virtual 3D equipment in physical space.
 4. **Competency Assessment**: The worker completes a 10-question visual MCQ exam with localized audio playback.
@@ -127,15 +127,15 @@ $$\text{Learn} \longrightarrow \text{Visualize} \longrightarrow \text{Interact} 
 
 ```mermaid
 flowchart TD
-    subgraph FIELD["⛏️ Underground Subterranean Stopes (Offline)"]
+    subgraph FIELD["Underground Field Operations (Offline Stopes)"]
         WORKER["Mine Worker"] --> APP["SYMBIOMINE AR (Android / Jetpack Compose)"]
-        APP --> AUTH["Local Face & PIN Auth (CameraX)"]
+        APP --> AUTH["Local Face & PIN Verification (CameraX)"]
         APP --> DASH["Safety Dashboard (Multilingual Engine)"]
         DASH --> MODULES["Training Modules"]
         
-        MODULES --> M01["M01 — Fire Safety & Extinguisher"]
-        MODULES --> M02["M02 — Gas Leak & Lockout Tagout"]
-        MODULES --> M03["M03 — Electrical Safety & Isolation"]
+        MODULES --> M01["Module 01 — Fire Safety & Extinguisher"]
+        MODULES --> M02["Module 02 — Gas Leak & Lockout Tagout"]
+        MODULES --> M03["Module 03 — Electrical Safety & Isolation"]
         
         M01 --> LAUNCHER["Unity AR Launcher / Installer"]
         M02 --> LAUNCHER
@@ -145,21 +145,21 @@ flowchart TD
         UNITY --> SIM["Interactive 3D Spatial Scenario"]
         
         SIM --> ASSESS["Competency Assessment (Room SQLite DB)"]
-        ASSESS --> EVAL["Scoring & Evaluation (≥80% Pass)"]
+        ASSESS --> EVAL["Scoring & Evaluation (Pass Threshold >= 80%)"]
         EVAL --> CERT["Digital Certificate & Offline QR Code"]
     end
 
-    subgraph SURFACE["🏢 Surface Operations & Command (Online / Intranet)"]
-        ADMIN["Safety Director / Supervisor"] --> WEB["SymbioMine Admin Dashboard (React 19 / TypeScript)"]
-        WEB --> CMD["Command Center & Roster"]
-        WEB --> ANALYTICS["Competency Analytics"]
-        WEB --> SCAN["QR Verification Portal"]
+    subgraph SURFACE["Surface Operations & Command Center (Intranet/Cloud)"]
+        ADMIN["Safety Director / Operations Supervisor"] --> WEB["SymbioMine Admin Dashboard (React 19 / TypeScript)"]
+        WEB --> CMD["Command Center & Operational Roster"]
+        WEB --> ANALYTICS["Competency Intelligence & Trend Curves"]
+        WEB --> SCAN["Optical QR Verification Portal"]
         WEB --> AI["Gemini AI Safety Assistant (MCP Tools)"]
-        AI --> GUARD["Deterministic Safety Guardrail Policy"]
+        AI --> GUARD["Deterministic Safety Guardrail Engine"]
     end
 
-    CERT -.->|"Physical / Screen Scan"| SCAN
-    ASSESS -.->|"Batch Sync via Docking Bay (Planned)"| WEB
+    CERT -.->|"Physical / Screen QR Scan"| SCAN
+    ASSESS -.->|"Batch Sync via Docking Bay"| WEB
 ```
 
 ---
@@ -168,15 +168,15 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    A["Launch App"] --> B["Face / PIN Login"]
-    B --> C["Dashboard"]
-    C --> D["Select Module"]
-    D --> E["Launch AR"]
-    E --> F["Complete Scenario"]
-    F --> G["Visual MCQ"]
-    G --> H["Score Result"]
-    H --> I["Certificate & QR"]
-    I -.-> J["Supervisor QR Scan on Dashboard"]
+    A["Launch App"] --> B["Face / PIN Authentication"]
+    B --> C["Worker Dashboard"]
+    C --> D["Select Safety Module"]
+    D --> E["Launch AR Drill"]
+    E --> F["Complete 3D Drill"]
+    F --> G["Visual MCQ Assessment"]
+    G --> H["Automated Scoring"]
+    H --> I["Certificate & QR Generation"]
+    I -.-> J["Supervisor Verification on Dashboard"]
 ```
 
 ---
@@ -193,8 +193,8 @@ Unity AR Module Runtime (ARCore Subsystem)
 Spatial Coordinate Anchor & 3D Hazard Meshes
        │  (Physical proximity checks & bounding collision)
        ▼
-Step-by-Step Task Validation (PASS / LOTO / SCSR)
-       │  (Scenario complete flag)
+Step-by-Step Task Validation (PASS / LOTO / SCSR / Switchgear)
+       │  (Scenario completion flag)
        ▼
 Return to Android Host → Competency Assessment Flow
 ```
@@ -203,11 +203,11 @@ The AR experience interfaces with Android via explicit intents passing the candi
 
 ---
 
-## AR Training Modules
+## Immersive Augmented Reality Training Modules
 
-### 🔥 Fire Safety & Extinguisher (Module 01)
+### Module 01: Fire Safety & Extinguisher Operation
 * **Training Objective**: Master the standard **PASS** protocol (Pull, Aim, Squeeze, Sweep) and maintain safe standoff distances during high-heat underground fires.
-* **Visible Scenario**: Conveyor drive motor fire in an underground belt drift.
+* **Simulated Hazard**: Conveyor drive motor fire in an underground haulage drift.
 * **Worker Interaction**: Trainees pull the safety pin, align the nozzle to the fire base, and sweep the retardant stream while staying within the **2.5m – 3.0m safe zone**. Approaching too close triggers immediate proximity warning HUD alarms.
 * **Learning Outcome**: Instinctive reaction to industrial fires without panic or hazardous heat exposure.
 
@@ -233,9 +233,9 @@ The AR experience interfaces with Android via explicit intents passing the candi
 
 ---
 
-### 🛢️ Gas Leak & Lockout Tagout (Module 02)
+### Module 02: Atmospheric Gas Leak & Lockout-Tagout (LOTO)
 * **Training Objective**: Identify dangerous atmospheric gas leaks, don emergency breathing apparatus, execute positive pipeline valve isolation, and apply lockout/tagout (LOTO) security.
-* **Visible Scenario**: Ruptured industrial gas pipeline with live gas telemetry indicators (methane/carbon monoxide ppm readouts).
+* **Simulated Hazard**: Ruptured industrial gas pipeline with live gas telemetry indicators (methane/carbon monoxide ppm readouts).
 * **Worker Interaction**: Trainees inspect sensor levels, don the Self-Contained Self-Rescuer (SCSR) mask, turn the mechanical isolation wheel to stop the flow, attach the lockout hasp, and secure the yellow danger padlock and warning tag.
 * **Target Runtime Asset**: `app/src/main/assets/modules/gas3.apk` (Loads target Unity scene `GASLEACKAGE`).
 * **Learning Outcome**: Strict adherence to zero-energy hazardous substance containment.
@@ -267,23 +267,52 @@ The AR experience interfaces with Android via explicit intents passing the candi
 
 ---
 
-### ⚡ Electrical Safety & Escapeway Wayfinding (Module 03)
-* **Training Objective**: Substation isolation, zero-energy arc flash safety, and rapid underground emergency egress.
-* **Visible Scenario**: Underground electrical distribution panel and darkened mine roadway escapeway.
-* **Worker Interaction**: Trainees inspect high-voltage switchgear isolation and follow green directional laser guidance along escape galleries toward the designated subterranean refuge chamber.
-* **Learning Outcome**: Rapid egress navigation during low-visibility underground emergency scenarios.
+### Module 03: Electrical Safety, Substation Isolation & Escapeway Wayfinding
+* **Training Objective**: High-voltage electrical substation isolation, arc flash standoff boundaries, switchgear inspection, and low-visibility underground emergency egress wayfinding.
+* **Simulated Hazard**: Subterranean motor control center (MCC) switchgear cabinet and darkened underground escapeway roadway.
+* **Worker Interaction**: Trainees inspect the electrical enclosure, position on dielectric safety mats, verify breaker racking and positive electrical isolation, review internal contactor and relay states, and follow laser egress waypoints toward safety refuge bays.
+* **Learning Outcome**: Elimination of arc-flash incidents and rapid subterranean evacuation competency.
+
+#### Electrical Switchgear Isolation Drill (Field AR Captures)
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="docs/screenshots/elec/elec-panel-closed.jpg" width="100%"><br>
+      <b>Switchgear Enclosure</b><br>
+      <em>Dielectric floor mat positioning, arc flash perimeter, and alarm beacon.</em>
+    </td>
+    <td align="center" width="25%">
+      <img src="docs/screenshots/elec/elec-panel-open.jpg" width="100%"><br>
+      <b>Open Cabinet Inspection</b><br>
+      <em>High-voltage danger signage, main busbars, and circuit breaker racking.</em>
+    </td>
+    <td align="center" width="25%">
+      <img src="docs/screenshots/elec/elec-components-detail.jpg" width="100%"><br>
+      <b>Component Schematics</b><br>
+      <em>Internal contactors, relays, thermal overload units, and wiring harness.</em>
+    </td>
+    <td align="center" width="25%">
+      <img src="docs/screenshots/elec/elec-isolation-procedure.jpg" width="100%"><br>
+      <b>Isolation & Lockout</b><br>
+      <em>Safety interlock verification and de-energization validation sequence.</em>
+    </td>
+  </tr>
+</table>
+
+#### Subterranean Escapeway Wayfinding
 
 <table>
   <tr>
     <td align="center" width="50%">
       <img src="docs/screenshots/ar/escape-path-navigation.png" width="100%"><br>
       <b>Mine Gallery Egress Wayfinding</b><br>
-      <em>Laser path marker guiding workers through darkened underground galleries to the safety refuge bay.</em>
+      <em>Laser path marker guiding personnel through darkened underground galleries to the safety refuge bay.</em>
     </td>
     <td align="center" width="50%">
       <img src="docs/screenshots/ar/system-overview.png" width="100%"><br>
       <b>System Simulation Ecosystem</b><br>
-      <em>Multi-scenario overview displaying mobile UI, fire drills, gas isolation, and escape wayfinding.</em>
+      <em>Multi-scenario integration showing mobile application, fire suppression, gas containment, and emergency wayfinding.</em>
     </td>
   </tr>
 </table>
@@ -292,7 +321,7 @@ The AR experience interfaces with Android via explicit intents passing the candi
 
 ## Application Screenshots
 
-### 📱 Core Mobile Application Workflow
+### Core Mobile Application Workflow
 
 <table>
   <tr>
@@ -333,9 +362,9 @@ The AR experience interfaces with Android via explicit intents passing the candi
 
 ---
 
-## 💻 SymbioMine AR Admin Dashboard
+## SymbioMine Admin Command Center & Analytics Dashboard
 
-The **SymbioMine Admin Dashboard** provides centralized safety intelligence and oversight through 18 specialized operational views:
+The **SymbioMine Admin Dashboard** provides centralized safety intelligence and operational governance through 18 specialized views:
 
 | Module View | File | Operational Capability |
 | :--- | :--- | :--- |
@@ -361,7 +390,7 @@ The **SymbioMine Admin Dashboard** provides centralized safety intelligence and 
 
 ## Technology Stack
 
-### 📱 Android / XR Mobile Application (`app/`)
+### Android / XR Mobile Application (`app/`)
 | Layer | Technology | Purpose in Project |
 | :--- | :--- | :--- |
 | **Operating System** | Android 14+ (`minSdk 24`, `targetSdk 36`, `compileSdk 36`) | Host runtime for industrial mobile devices |
@@ -374,12 +403,12 @@ The **SymbioMine Admin Dashboard** provides centralized safety intelligence and 
 | **Build System** | Gradle 9.3.1 / Android Gradle Plugin 9.1.1 | Dependency management and APK assembly |
 | **Verification & Crypto** | ZXing Core / Android FileProvider | Offline QR generation and secure APK delivery |
 
-### 💻 Admin Dashboard Web Application (`SymbioMine-Dashboard/`)
+### Admin Dashboard Web Application (`SymbioMine-Dashboard/`)
 | Layer | Technology | Purpose in Project |
 | :--- | :--- | :--- |
 | **Frontend Framework** | React 19.0.1 | Modern concurrent component UI architecture |
 | **Language** | TypeScript 7.0.2 | End-to-end type safety and domain modeling |
-| **Build Tooling** | Vite 8.3.0 | Lightning-fast development server and optimized bundles |
+| **Build Tooling** | Vite 8.3.0 | Fast development server and optimized bundles |
 | **Styling & Theme** | Tailwind CSS 4.3.3 | Industrial design system with high-contrast accessibility |
 | **Motion** | Motion 12.23 (Framer Motion) | Micro-interactions, sliding drawers, and animated meters |
 | **Icons & Typography** | Lucide React / Zen Dots + JetBrains Mono | Industrial iconography and specialized typography |
@@ -403,8 +432,8 @@ SYMBIOMINE/
 │       │   ├── assets/
 │       │   │   ├── fonts/           # Localized typography (Noto Sans Oriya / Ol Chiki)
 │       │   │   └── modules/         # Bundled standalone Unity AR APKs
-│       │   │       ├── fire_module.apk  # Module 01: Fire Safety & Extinguisher (89 MB)
-│       │   │       └── gas3.apk         # Module 02: Gas Leak & Lockout Tagout (100 MB)
+│       │   │       ├── fire_module.apk  # Module 01: Fire Safety & Extinguisher (85 MB)
+│       │   │       └── gas3.apk         # Module 02: Gas Leak & Lockout Tagout (95 MB)
 │       │   ├── java/com/example/
 │       │   │   ├── MainActivity.kt  # Main host activity & navigation router
 │       │   │   ├── data/            # Settings, Language models, Quiz repositories
@@ -451,7 +480,8 @@ SYMBIOMINE/
 │   ├── architecture.md              # Detailed system architecture & API integration specifications
 │   └── screenshots/                 # Application and Unity AR simulation visuals
 │       ├── app/                     # Mobile application user interface captures
-│       └── ar/                      # Unity AR drill simulation HUD captures
+│       ├── ar/                      # Unity AR drill simulation HUD captures
+│       └── elec/                    # Electrical switchgear isolation AR field captures
 │
 ├── gradle/                          # Gradle wrapper binaries & version catalog
 │   ├── libs.versions.toml           # Version catalog (AGP 9.1.1, Kotlin 2.2.10, Compose)
@@ -466,20 +496,20 @@ SYMBIOMINE/
 
 ---
 
-## 📦 APK Distribution & Direct Downloads
+## Application Packages & Distribution
 
-The application and its interactive AR simulation modules are downloadable and ready to install on Android devices:
+The application and its interactive AR simulation modules are distributed as self-contained Android application packages:
 
 | Component / Module | File Size | Direct Download Link | Description & Features |
 | :--- | :--- | :--- | :--- |
-| **🔥 Module 01: Fire Safety AR** | **85.1 MB** | [⬇️ **Download `fire_module.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/fire_module.apk) | Standalone AR drill for PASS fire extinguisher protocol, safe standoff distance guide, and thermal alarm simulation. |
-| **⚠️ Module 02: Gas Leak & LOTO AR** | **95.5 MB** | [⬇️ **Download `gas3.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/gas3.apk) | Standalone AR drill for methane hazard detection, SCSR mask donning, and physical Lockout/Tagout valve isolation. |
-| **📱 Full SYMBIOMINE AR App (All-in-One)** | **341 MB** | [⬇️ **Download `symbiomine-app.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk) | **Complete Ecosystem**: Face biometric login, safety practice dashboard, multilingual audio narration (Santali/Hindi/English), visual scenario quizzes, and tamper-evident offline QR certificates. |
+| **Module 01: Fire Safety AR** | **85.1 MB** | [**Download `fire_module.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/fire_module.apk) | Standalone AR drill for PASS fire extinguisher protocol, safe standoff distance guide, and thermal alarm simulation. |
+| **Module 02: Gas Leak & LOTO AR** | **95.5 MB** | [**Download `gas3.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/gas3.apk) | Standalone AR drill for methane hazard detection, SCSR mask donning, and physical Lockout/Tagout valve isolation. |
+| **Full SYMBIOMINE AR App (All-in-One)** | **341 MB** | [**Download `symbiomine-app.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk) | **Complete Ecosystem**: Face biometric login, safety practice dashboard, multilingual audio narration (Santali/Hindi/English), visual scenario quizzes, and tamper-evident offline QR certificates. |
 
 > [!TIP]
-> **Quick Install on Android Device:**
-> 1. Download any `.apk` directly to your phone via the links above.
-> 2. Open the downloaded file in your Android File Manager and tap **Install** (allow "Install Unknown Apps" if prompted).
+> **Installation on Android Device:**
+> 1. Download the `.apk` directly to your phone via the links above.
+> 2. Open the downloaded file in your Android File Manager and select **Install** (enable "Install Unknown Apps" if prompted).
 > 3. Alternatively, install via ADB: `adb install -r fire_module.apk` or `adb install -r gas3.apk`.
 
 > [!NOTE]
@@ -489,7 +519,7 @@ The application and its interactive AR simulation modules are downloadable and r
 
 ## Installation & Setup
 
-### Part A: 📱 SYMBIOMINE AR (Android Application)
+### Part A: SYMBIOMINE AR (Android Host Application)
 
 #### Prerequisites
 * **Android Studio** (Ladybug or newer recommended)
@@ -527,7 +557,7 @@ adb shell am start -n com.aistudio.symbiomine.sftyar/com.example.MainActivity
 
 ---
 
-### Part B: 💻 SymbioMine Admin Dashboard (Web Application)
+### Part B: SymbioMine Admin Dashboard (Web Application)
 
 #### Prerequisites
 * **Node.js** 18+ or [Bun](https://bun.sh) 1.3+
@@ -579,9 +609,7 @@ bun run build
 bun run start
 ```
 
-
 #### 6. Production Container & Cloud Deployment
-
 ```bash
 # Build and deploy container image to Google Cloud Run
 cd SymbioMine-Dashboard
@@ -596,9 +624,9 @@ gcloud run deploy symbiomine-dashboard \
 
 ---
 
-## 🔗 Cross-Platform API Integration Status
+## Cross-Platform API Integration Architecture
 
-> ### ⚠️ Canonical Integration Disclosure
+> ### System Integration Notice
 > The **SYMBIOMINE AR Android application** and the **SymbioMine Admin Dashboard** currently maintain independent, production-grade local data stores:
 > * **Android**: On-device Room SQLite database holding worker profiles, quiz scores, and offline certificates.
 > * **Dashboard**: Client/Server state management holding operational rosters, competency metrics, and MCP registry tools.
@@ -608,7 +636,7 @@ gcloud run deploy symbiomine-dashboard \
 
 ---
 
-## Offline Operation
+## Offline Subterranean Operation
 
 SYMBIOMINE AR does **not** rely on remote servers, external APIs, or cloud authentication. Every component is architected for zero-bandwidth subterranean environments:
 
@@ -629,7 +657,7 @@ flowchart LR
 
 ---
 
-## Competency Assessment Flow
+## Competency Assessment Framework
 
 To earn safety clearance, workers must pass a structured evaluation:
 
@@ -662,37 +690,37 @@ When a candidate successfully completes an assessment:
 
 ---
 
-## Project Status
+## Verification & Implementation Matrix
 
 | Component | Sub-System | Verification Status |
 | :--- | :--- | :--- |
-| **Android Host App** | Jetpack Compose / MVVM Architecture | ✅ Implemented & Verified |
-| **M01: Fire Safety AR** | PASS Drill, Safe Distance Guide, Heat Warning | ✅ Implemented & Verified |
-| **M02: Gas Leak & LOTO AR** | Methane Readout, SCSR Donning, LOTO Valve Padlock | ✅ Implemented & Verified (`gas3.apk`) |
-| **M03: Electrical Safety** | High-Voltage Isolation, Escapeway Laser Egress | ✅ Implemented & Verified |
-| **Multilingual Engine** | Santali (Ol Chiki), Hindi, English text & voice | ✅ Implemented & Verified |
-| **Biometric Auth** | Local CameraX face reticle & profile match | ✅ Implemented & Verified |
-| **Assessment System** | Visual scenario MCQs & score evaluation | ✅ Implemented & Verified |
-| **Offline Certificate** | On-device rendering with verification QR | ✅ Implemented & Verified |
-| **Admin Command Center** | Real-time safety KPIs, roster, and broadcast alerts | ✅ Integrated & Verified (`SymbioMine-Dashboard`) |
-| **Competency Analytics** | Radar matrices, hazard breakdown, and trend curves | ✅ Integrated & Verified (`SymbioMine-Dashboard`) |
-| **QR Certificate Scanner** | Web camera QR scanner & cryptographic validation | ✅ Integrated & Verified (`SymbioMine-Dashboard`) |
-| **Agentic AI Safety Assistant** | Gemini 3.8 Flash with MCP tools & safety guardrails | ✅ Integrated & Verified (`SymbioMine-Dashboard`) |
-| **System Architecture Spec** | Integration contracts, schemas, and security boundaries | ✅ Documented (`docs/architecture.md`) |
+| **Android Host App** | Jetpack Compose / MVVM Architecture | Verified |
+| **M01: Fire Safety AR** | PASS Drill, Safe Distance Guide, Heat Warning | Verified |
+| **M02: Gas Leak & LOTO AR** | Methane Readout, SCSR Donning, LOTO Valve Padlock | Verified (`gas3.apk`) |
+| **M03: Electrical Safety** | High-Voltage Isolation, Arc Flash Mat, Escapeway Laser Egress | Verified (`elec` captures) |
+| **Multilingual Engine** | Santali (Ol Chiki), Hindi, English text & voice | Verified |
+| **Biometric Auth** | Local CameraX face reticle & profile match | Verified |
+| **Assessment System** | Visual scenario MCQs & score evaluation | Verified |
+| **Offline Certificate** | On-device rendering with verification QR | Verified |
+| **Admin Command Center** | Real-time safety KPIs, roster, and broadcast alerts | Integrated & Verified (`SymbioMine-Dashboard`) |
+| **Competency Analytics** | Radar matrices, hazard breakdown, and trend curves | Integrated & Verified (`SymbioMine-Dashboard`) |
+| **QR Certificate Scanner** | Web camera QR scanner & cryptographic validation | Integrated & Verified (`SymbioMine-Dashboard`) |
+| **Agentic AI Safety Assistant** | Gemini 3.8 Flash with MCP tools & safety guardrails | Integrated & Verified (`SymbioMine-Dashboard`) |
+| **System Architecture Spec** | Integration contracts, schemas, and security boundaries | Documented (`docs/architecture.md`) |
 
 ---
 
-## Roadmap
+## Development Roadmap
 
 * [ ] **Module 04 (Roof Fall & Strata Control)**: 3D AR simulations for rock-bolting inspection and acoustic strata monitoring.
 * [ ] **Module 05 (Haulage & Conveyor Nip Points)**: Interactive conveyor pull-cord trip switch and guarding inspection.
 * [ ] **Expanded Regional Dialects**: Ho, Mundari, and Gondi audio narration integration.
-* [ ] **Multi-User Cooperative Drills**: Local Wi-Fi Direct peer-to-peer multiplayer for coordinated team rescue operations.
+* [ ] **Multi-User Cooperative Drills**: Local Wi-Fi Direct peer-to-peer networking for coordinated team rescue operations.
 * [ ] **Automated Surface Docking Sync**: USB/Wi-Fi automated sync station syncing Room DB with Dashboard REST gateway.
 
 ---
 
-## License & Compliance
+## Regulatory Compliance & Licensing
 
 Developed in alignment with **Directorate General of Mines Safety (DGMS)** training guidelines for underground mines and heavy industrial installations.
 
