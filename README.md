@@ -11,6 +11,7 @@
 [![AI Engine](https://img.shields.io/badge/AI_Engine-Gemini_3.8_Flash-4285F4?style=flat&logo=google&logoColor=white)](https://ai.google.dev)
 [![Standard](https://img.shields.io/badge/Compliance-DGMS_Standard-0284C7?style=flat)](#)
 [![Download Complete Android App](https://img.shields.io/badge/Download_Complete_App-v1.0.0_APK_(341_MB)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk)
+[![Watch Working Video Demonstration](https://img.shields.io/badge/YouTube-Watch_Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/GL0BDV6_2WY)
 
 ---
 
@@ -20,6 +21,7 @@
 > 
 > | Package | File Size | Direct Download Link | Specification & Inclusions |
 > | :--- | :---: | :--- | :--- |
+> | **Working Video Demonstration** | **YouTube HD** | [**Watch Video Demonstration**](https://youtu.be/GL0BDV6_2WY) | Complete operational walkthrough: Android host application, CameraX face biometric login, Ol Chiki (Santali) voice guidance, PASS fire extinguisher drill, gas leak isolation, and on-device QR certification. |
 > | **SYMBIOMINE AR Full App** | **341 MB** | [**Download `symbiomine-app.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/releases/download/v1.0.0/symbiomine-app.apk) | **Unified Android Application**: Local facial recognition authentication, multilingual voice guidance (Santali Ol Chiki, Hindi, English), competency modules, visual scenario assessments, tamper-evident offline QR certificates, and integrated 3D AR simulation launchers. |
 > | **Module 01: Fire Safety AR** | **85.1 MB** | [**Download `fire_module.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/fire_module.apk) | Standalone PASS protocol fire extinguisher drill, safe standoff distance indicator, and thermal proximity alarm system. |
 > | **Module 02: Gas Leak & LOTO AR** | **95.5 MB** | [**Download `gas3.apk`**](https://github.com/SriDesiyan/SYMBIOMINE/raw/main/app/src/main/assets/modules/gas3.apk) | Standalone atmospheric methane leak detection, SCSR respiratory apparatus donning, and physical Lockout/Tagout valve isolation drill. |
@@ -43,9 +45,29 @@
 | Platform Module | Technology Stack | Repository Path | Description |
 | :--- | :--- | :--- | :--- |
 | **SYMBIOMINE AR Mobile App** | Kotlin 2.2, Jetpack Compose, Unity AR, Room SQLite | [`app/`](app/) | Offline-first 3D AR spatial hazard drills, biometric verification, visual MCQ assessments, on-device DGMS certificates. |
+| **Working Video Demonstration** | YouTube HD Video (Field & Studio) | [**Watch Video (`youtu.be/GL0BDV6_2WY`)**](https://youtu.be/GL0BDV6_2WY) | Operational demonstration video showcasing mobile application workflow, 3D AR drills, and verification. |
 | **Direct Application Packages** | Standalone Android APKs (341MB, 95MB, 85MB) | [Download Packages](#application-packages--distribution) | Pre-compiled distribution packages for field deployment and evaluation. |
 | **SymbioMine Admin Dashboard** | React 19, TypeScript 7, Vite 8, Express, Gemini AI, MCP | [`SymbioMine-Dashboard/`](SymbioMine-Dashboard/) | Surface operations center, workforce roster, competency analytics, QR certificate scanner, Agentic AI assistant. |
 | **System Architecture & Specs** | Cross-platform architectural diagrams & API contracts | [`docs/architecture.md`](docs/architecture.md) | Canonical REST synchronization schemas, security boundaries, and deterministic safety rules. |
+
+---
+
+## Working Module Video Demonstration
+
+<p align="center">
+  <a href="https://youtu.be/GL0BDV6_2WY">
+    <img src="https://img.youtube.com/vi/GL0BDV6_2WY/maxresdefault.jpg" width="700" alt="SYMBIOMINE AR Working Module Demonstration Video">
+  </a>
+  <br>
+  <em>Video Walkthrough — Click above to view the working demonstration on YouTube (<a href="https://youtu.be/GL0BDV6_2WY">https://youtu.be/GL0BDV6_2WY</a>)</em>
+</p>
+
+> **Demonstrated Capabilities**:
+> * **Biometric Authentication**: Live CameraX on-device facial recognition matching the enrolled worker profile.
+> * **Multilingual Interface & Narration**: Native Ol Chiki (Santali) typography and regional voice playback.
+> * **Augmented Reality Simulations**: PASS protocol fire suppression drill and atmospheric gas leak valve isolation.
+> * **Visual Competency Assessments**: 3D equipment scenario MCQs and instantaneous competency evaluation.
+> * **Tamper-Evident Certification**: Generation of offline-verifiable QR certificates conforming to DGMS standards.
 
 ---
 
