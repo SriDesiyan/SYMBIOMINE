@@ -56,7 +56,7 @@
 
 <p align="center">
   <a href="https://youtu.be/GL0BDV6_2WY">
-    <img src="docs/screenshots/video-thumbnail.jpg" width="750" alt="SYMBIOMINE AR Working Module Demonstration Video">
+    <img src="docs/screenshots/video-thumbnail.png" width="750" alt="SYMBIOMINE AR Working Module Demonstration Video">
   </a>
   <br>
   <em>Video Walkthrough — Click above to view the working demonstration on YouTube (<a href="https://youtu.be/GL0BDV6_2WY">https://youtu.be/GL0BDV6_2WY</a>)</em>
